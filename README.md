@@ -6,7 +6,7 @@
 # Instructions to use
 - Right click BlueStacks.bat and run it as an administrator
 
-# BlueScacks.bat
+# BlueStacks.bat
 - The script will run CheckPython.bat to check if python is installed or not
 - CheckPython.bat will install python 3.8.10 automatically as it is needed to run python scripts.
 - Script will run BlueStacksInstaller.py script
