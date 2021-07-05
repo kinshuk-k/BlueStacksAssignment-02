@@ -17,11 +17,6 @@ time.sleep(5)
 ActiveWindow = pyautogui.getActiveWindow()
 pyautogui.click(ActiveWindow.left + 300, ActiveWindow.top + 400)
 
-#Other way to do this, however this is dependent on resolution.
-#Locate = pyautogui.locateOnScreen('Install.png')
-#pyautogui.click(Locate[0], Locate[1])
-#Locate = pyautogui.locateOnScreen('exit.png')
-
 #If Installer fails
 time.sleep(15)
 pyautogui.click(ActiveWindow.left + 376, ActiveWindow.top + 278)
